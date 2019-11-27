@@ -1,9 +1,17 @@
 {
   "name": "prismjs-vs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visual Studio themes for Prism js",
   "author": "Jérémy Jeanson (https://www.bugshunter.net)",
   "license": "MIT",
+  "homepage": "https://github.com/JeremyJeanson/prismjs-vs",
+  "bugs": {
+    "url": "https://github.com/JeremyJeanson/prismjs-vs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeremyJeanson/prismjs-vs.git"
+  },
   "devDependencies": {
     "node-sass": "4.13.0",
     "clean-css-cli": "4.3.0"
