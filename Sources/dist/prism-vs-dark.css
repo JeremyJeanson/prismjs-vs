@@ -1,0 +1,55 @@
+code[class*="language-"] {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  background: #1E1E1E;
+  color: #DCDCDA; }
+
+.token.punctuation {
+  color: #DCDCDA; }
+
+.token.comment {
+  color: #23A658; }
+
+.token.string {
+  color: #EA9D78; }
+
+.token.function {
+  color: #A0D7A7; }
+
+.token.class-name {
+  color: #13C9C6; }
+
+.token.doctype, .token.prolog {
+  color: #13C9C6; }
+
+.token.keyword {
+  color: #439CE2; }
+
+.token.preprocessor.property {
+  color: #9B9B99; }
+  .token.preprocessor.property .keyword {
+    color: #9B9B99; }
+
+.token.selector {
+  color: #D8BA76; }
+
+.token.atrule {
+  color: #439CE2; }
+
+.token.tag {
+  color: #439CE2; }
+
+.token.attr-name {
+  color: #87DCFF; }
+
+.token.attr-value {
+  color: #C8C8C6; }
+
+code[class*="language-css"] {
+  color: #C8C8C6; }
+  code[class*="language-css"] .token.property {
+    color: #67DCFF; }
+  code[class*="language-css"] .token.string {
+    color: #C8C8C6; }
+
+code[class*="language-markup"] .token.punctuation {
+  color: #80807F; }

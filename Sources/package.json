@@ -1,0 +1,17 @@
+{
+  "name": "prismjs-vs",
+  "version": "0.0.1",
+  "description": "Visual Studio themes for Prism js",
+  "author": "Jérémy Jeanson (https://www.bugshunter.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "4.13.0",
+    "clean-css-cli": "4.3.0"
+  },
+  "scripts": {
+    "build-css": "node-sass scss --output dist",
+    "minify-css-dark": "cleancss --level 2 dist/prism-vs-dark.css --output dist/prism-vs-dark.min.css",
+    "minify-css-light": "cleancss --level 2 dist/prism-vs-light.css --output dist/prism-vs-light.min.css",
+    "build": "npm run build-css && npm run minify-css-dark && npm run minify-css-light"
+  }
+}

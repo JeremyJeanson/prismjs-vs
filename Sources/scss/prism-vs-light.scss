@@ -1,0 +1,25 @@
+$background: #FFFFFC;
+$foreground:#000;
+
+// C#
+$comment: #008016;
+$string: #E11500;
+$function: #785318;
+$class-name: #0491C1;
+$keyword: #3200FF;
+$preprocessor-property: #80807F;
+
+// Css
+$atrule:$keyword;
+$css-foreground: #3200FF;
+$css-selector: #B80000;
+$css-property: $css-selector;
+
+// Markup (HTML, XML)
+$doctype: $class-name ;
+$markup-tag: $css-selector;
+$attr-name: #FF0000;
+$markup-punctuation: $keyword;
+$markup-attr-value:$keyword;
+
+@import "_prism-vs";
