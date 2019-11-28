@@ -1,6 +1,6 @@
 # Introduction
 
-This project include themes for [Prism JS](https://prismjs.com/). Those theme are based on the Visual Studio 2019 colors.
+This project include themes for [Prism JS](https://prismjs.com/). These themes are based on the Visual Studio 2019 colors.
 
 At this time, 2 themes are available :
 - Visual Studio Light (prismjs-vs-light)

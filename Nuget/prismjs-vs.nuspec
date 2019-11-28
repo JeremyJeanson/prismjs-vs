@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>prismjs-vs</id>
+    <version>1.0.2</version>
+    <title>Visual Studio themes for Prism js (CSS)</title>
+    <authors>Jérémy Jeanson</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/JeremyJeanson/prismjs-vs</projectUrl>
+    <description>This project include themes for Prism JS.
+These themes are based on the Visual Studio 2019 colors.</description>
+    <summary>Themes were optimized for : C#, C (and C-Like), CSS, Java Script, Json, Markup, HTML, XML, Powershell, SASS (SCSS), SQL, YAML.
+
+But it should support all others the language.</summary>
+    <language>en-US</language>
+    <tags>prism prismjs highlight theme visual studio</tags>
+  </metadata>
+  <files>
+    <file src="..\Sources\dist\*.*" target="content\Content\prismjs-vs" />
+  </files>
+</package>
