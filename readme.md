@@ -4,9 +4,11 @@ This project include themes for [Prism JS](https://prismjs.com/). These themes a
 
 At this time, 2 themes are available :
 - Visual Studio Light (prismjs-vs-light)
+
 ![Sample light](Documentation/Images/sample-light.png)
 
 - Visual Studio Light (prismjs-vs-dark)
+
 ![Sample light](Documentation/Images/sample-dark.png)
 
 # Languages supported
