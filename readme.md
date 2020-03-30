@@ -1,6 +1,10 @@
 # Download
-[![npm](https://img.shields.io/npm/dw/prismjs-vs.svg)](https://www.npmjs.com/package/prismjs-vs)
+[![npm](https://img.shields.io/npm/dw/prismjs-vs.svg?logo=npm&label=npm%20version)](https://www.npmjs.com/package/prismjs-vs)
 
+[![npm](https://img.shields.io/nuget/dt/prismjs-vs.svg?logo=nuget&label=nuget%20css%20version)](https://www.nuget.org/packages/prismjs-vs/)
+
+[![npm](https://img.shields.io/nuget/dt/prismjs-vs.sass.svg?logo=nuget&label=nuget%20sass%20version)](https://www.nuget.org/packages/prismjs-vs.sass/)
+ 
 # Introduction
 
 This project include themes for [Prism JS](https://prismjs.com/). These themes are based on the Visual Studio 2019 colors.
