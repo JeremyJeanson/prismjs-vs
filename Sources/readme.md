@@ -4,10 +4,10 @@ This project include themes for [Prism JS](https://prismjs.com/). These themes a
 
 At this time, 2 themes are available :
 - Visual Studio Light (prismjs-vs-light)
-![Sample light](https://github.com/JeremyJeanson/prismjs-vs/raw/master/Documentation/Images/sample-light.png)
+![Sample light](https://github.com/JeremyJeanson/prismjs-vs/raw/main/Documentation/Images/sample-light.png)
 
 - Visual Studio Light (prismjs-vs-dark)
-![Sample light](https://github.com/JeremyJeanson/prismjs-vs/raw/master/Documentation/Images/sample-dark.png)
+![Sample light](https://github.com/JeremyJeanson/prismjs-vs/raw/main/Documentation/Images/sample-dark.png)
 
 # Languages supported
 Themes were optimized for : C#, C (and C-Like), CSS, Java Script, Json, Markup, HTML, XML, Powershell, SASS (SCSS), SQL, YAML.
