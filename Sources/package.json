@@ -22,16 +22,16 @@
     "light"
   ],
   "devDependencies": {
-    "node-sass": "^7.0.0",
-    "clean-css-cli": "^4.3.0"
+    "node-sass": "^7.0.1",
+    "clean-css-cli": "^5.5.2"
   },
   "dependencies": {
-    "prismjs": "^1.20.0"
+    "prismjs": "^1.27.0"
   },
   "scripts": {
     "build-css": "node-sass scss --output dist",
-    "minify-css-dark": "cleancss --level 2 dist/prism-vs-dark.css --output dist/prism-vs-dark.min.css",
-    "minify-css-light": "cleancss --level 2 dist/prism-vs-light.css --output dist/prism-vs-light.min.css",
+    "minify-css-dark": "cleancss dist/prism-vs-dark.css --output dist/prism-vs-dark.min.css",
+    "minify-css-light": "cleancss dist/prism-vs-light.css --output dist/prism-vs-light.min.css",
     "build": "npm run build-css && npm run minify-css-dark && npm run minify-css-light"
   }
 }
